@@ -16,4 +16,5 @@ emp1 = Employee("luv", 2000)
 emp2 = Employee("kush", 5000)
 emp1.displayEmployee()
 emp2.displayEmployee()
+
 print "Total Employee %d" % Employee.empCount
