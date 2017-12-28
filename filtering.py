@@ -3,6 +3,11 @@ message = f.read()
 str = 'Ahmedabad'
 k=0
 
+
+
+asdasd
+
+
 # if str in message:
 #     print(" Ahmedabad is Matched in Cities")
 # else:
