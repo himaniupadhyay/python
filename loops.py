@@ -1,24 +1,22 @@
-#while loop
 
-count = 0
-while (count < 9):
-    print 'The count is:', count
-    count = count + 1
-print "Good bye!"
 
-#infinite loop
-# var = 1
-# while var == 1 :
-#     num = raw_input("Enter a number:")
-#     print "You entered: ", num
-# print "Good bye!"
+def while_loop():
+    count = 0
+    while count < 9:
+        count = count + 1
+    return count
 
-#for loop
-for letter in 'Python':
-    print 'Current Letter :', letter
 
-fruits = ['banana', 'apple','mango']
-for fruit in fruits:
-    print 'Current fruit :', fruit
-print "Good bye!"
+def for_loop():
+    count = 0
+    for l in 'Python':
+        count = count + 1
+    return count
 
+
+def for_loop_list():
+    count = 0
+    fruits = ['banana', 'apple','mango']
+    for fruit in fruits:
+        count = count + 1
+    return count
